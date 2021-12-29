@@ -1,0 +1,17 @@
+body {
+    align: center;
+    filter: invert(1);
+    background-color: black;
+    font-family: monospace;
+    font-size: 15px;
+    font-kerning: normal;
+    overflow-wrap: break-word;
+    line-height: 1.8;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+
+}
