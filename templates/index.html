@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %} Srikar Paida {% endblock %}
+
+{% block content %}
+    <h1>Personal blog with Flask</h1>
+
+    <ul>
+        <li>info
+            <ul>
+                {% for site in varia %}
+                    <li>
+                        <a href='{{ site.link }}'>
+                            {{ site.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li>posts
+            <ul>
+                {% for post in paths %}
+                    <li>
+                        <a href="{{ url_for('posts',
+                        i=loop.index0,
+                        postName=post.siteurl) }}">
+                            {{ post.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+        <li>contact
+            <ul>
+                <li>
+                    Mail: first.last73@somesite.com
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+{% endblock %}
