@@ -34,6 +34,6 @@ The final result of the index page looks like this.
 ![image](https://user-images.githubusercontent.com/36519233/147665968-6fdb9592-1f7b-41a2-a9e4-a3bd9c5d6f85.png)
 
 
-"It ain't much, but it honest work."
+"It ain't much, but it some work."
 
-(Can't even say honest 'cause I got the front-end idea from [riggraz.dev](https://riggraz.dev/no-style-please/))
+(I got the front-end idea from [riggraz.dev](https://riggraz.dev/no-style-please/))
